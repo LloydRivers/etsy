@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "./styled-header/Header.styled";
+import { Container, Input } from "./styled-header";
 
 function HeaderSearch() {
   return (
@@ -12,7 +12,7 @@ function HeaderSearch() {
         />
       </div>
       <div>
-        <input type="text" />
+        <Input type="text" />
       </div>
       <div>
         <div>

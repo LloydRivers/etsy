@@ -1,10 +1,15 @@
 import React from "react";
+import { Container } from "./styled-header/Header.styled";
 
 function HeaderSearch() {
   return (
-    <>
+    <Container>
       <div>
-        <img src="https://www.etsy.com/uk/?ref=lgo" alt="logo" />
+        <img
+          style={{ width: "50px" }}
+          src=" https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
+          alt="logo"
+        />
       </div>
       <div>
         <input type="text" />
@@ -17,7 +22,7 @@ function HeaderSearch() {
         <div></div>
         <div></div>
       </div>
-    </>
+    </Container>
   );
 }
 
